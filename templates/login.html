@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Healthcare Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="auth-page">
+
+    <header class="main-header">
+        <div class="logo-title" data-translate="app_name">Recoup</div>
+    </header>
+
+    <div class="auth-wrapper">
+        <div class="auth-left">
+            <div class="brand-box">
+                <h1 data-translate="portal_title">Healthcare Portal</h1>
+                <p data-translate="portal_subtitle">
+                    Secure access to reports, patient records, and healthcare services.
+                </p>
+            </div>
+        </div>
+
+        <div class="auth-right">
+            <div class="form-card">
+                <h2 data-translate="login_heading">Welcome Back</h2>
+                <p class="form-subtitle" data-translate="login_subtitle">Please login to continue</p>
+
+                <form id="loginForm">
+                    <div class="input-group">
+                        <label for="loginEmail" data-translate="email_label">Email Address</label>
+                        <input type="email" id="loginEmail" data-translate-placeholder="email_placeholder" placeholder="Enter your email">                    </div>
+                        <div id="loginMessage" class="form-message"></div>
+
+                    <div class="input-group">
+                        <label for="loginPassword" data-translate="password_label">Password</label>
+                        <input type="password" id="loginPassword" data-translate-placeholder="password_placeholder" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-box">
+                            <input type="checkbox" id="rememberMe">
+                            <span data-translate="remember_me">Remember me</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="primary-btn" data-translate="login_btn">Login</button>
+                </form>
+
+                <p class="switch-text">
+                    <span data-translate="no_account">Don’t have an account?</span>
+                    <a href="/signup" data-translate="signup_link">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/translate.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>

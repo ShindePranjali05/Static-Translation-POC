@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Healthcare Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body class="dashboard-page">
+
+    <header class="main-header dashboard-top">
+        <div class="logo-title" data-translate="app_name">Recoup</div>
+
+        <div class="header-actions">
+            <a href="/logout" class="logout-btn" data-translate="logout_btn">Logout</a>
+        </div>
+    </header>
+
+    <main class="dashboard-main">
+        <section class="welcome-banner">
+            <h2 data-translate="welcome_heading">Welcome to the Healthcare Portal</h2>
+            <p data-translate="welcome_text">Access patient records, reports, and healthcare services from one place.</p>
+        </section>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <h3 data-translate="total_patients">Total Patients</h3>
+                <p>120</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 data-translate="total_reports">Total Reports</h3>
+                <p>85</p>
+            </div>
+
+            <div class="stat-card">
+                <h3 data-translate="active_users">Active Users</h3>
+                <p>12</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/translate.js') }}"></script>
+
+    <script>
+        document.querySelector(".logout-btn").addEventListener("click", function () {
+            localStorage.removeItem("selectedLanguage");
+        });
+    </script>
+    
+</body>
+</html>
