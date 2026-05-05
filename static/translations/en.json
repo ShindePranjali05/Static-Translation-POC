@@ -1,0 +1,39 @@
+{
+  "app_name": "Recoup",
+
+  "portal_title": "Healthcare Portal",
+  "portal_subtitle": "Secure access to healthcare reports and services",
+
+  "login_heading": "Welcome Back",
+  "login_subtitle": "Please login to continue",
+
+  "email_label": "Email Address",
+  "password_label": "Password",
+  "email_placeholder": "Enter your email",
+  "password_placeholder": "Enter your password",
+  "confirm_password_placeholder": "Confirm your password",
+
+  "remember_me": "Remember me",
+
+  "login_btn": "Login",
+
+  "no_account": "Don't have an account?",
+  "signup_link": "Sign Up",
+  "signup_intro": "Create your account and get secure access to the healthcare system.",
+  
+  "signup_heading": "Create Account",
+  "signup_subtitle": "Register to access the healthcare portal",
+
+  "confirm_password": "Confirm Password",
+  "preferred_language": "Preferred Language",
+  "create_account_btn": "Create Account",
+
+  "already_account": "Already have an account?",
+  "login_link": "Login",
+
+  "dashboard_title": "Dashboard",
+  "welcome_heading": "Welcome to Recoup",
+  "welcome_text": "Manage healthcare reports and patient records easily.",
+
+  "logout_btn": "Logout"
+}

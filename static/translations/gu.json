@@ -1,0 +1,41 @@
+{
+  "app_name": "રિકૂપ",
+
+  "portal_title": "હેલ્થકેર પોર્ટલ",
+  "portal_subtitle": "આરોગ્ય રિપોર્ટ અને સેવાઓ માટે સુરક્ષિત પ્રવેશ",
+
+  "login_heading": "પાછા આવવા બદલ સ્વાગત છે",
+  "login_subtitle": "આગળ વધવા માટે લોગિન કરો",
+
+  "email_label": "ઇમેઇલ સરનામું",
+  "password_label": "પાસવર્ડ",
+
+  "email_placeholder": "તમારું ઇમેઇલ દાખલ કરો",
+  "password_placeholder": "તમારો પાસવર્ડ દાખલ કરો",
+
+  "remember_me": "મને યાદ રાખો",
+
+  "login_btn": "લોગિન",
+
+  "no_account": "શું તમારું એકાઉન્ટ નથી?",
+  "signup_link": "સાઇન અપ",
+
+  "signup_heading": "એકાઉન્ટ બનાવો",
+  "signup_subtitle": "હેલ્થકેર પોર્ટલનો ઉપયોગ કરવા માટે નોંધણી કરો",
+
+  "signup_intro": "તમારું એકાઉન્ટ બનાવો અને આરોગ્ય સિસ્ટમમાં સુરક્ષિત પ્રવેશ મેળવો.",
+
+  "confirm_password": "પાસવર્ડની પુષ્ટિ કરો",
+  "confirm_password_placeholder": "પાસવર્ડ ફરીથી દાખલ કરો",
+  "preferred_language": "પ્રિય ભાષા",
+  "create_account_btn": "એકાઉન્ટ બનાવો",
+
+  "already_account": "શું તમારું પહેલેથી એકાઉન્ટ છે?",
+  "login_link": "લોગિન",
+
+  "dashboard_title": "ડેશબોર્ડ",
+  "welcome_heading": "રિકૂપમાં તમારું સ્વાગત છે",
+  "welcome_text": "આરોગ્ય રિપોર્ટ અને દર્દી રેકોર્ડ સરળતાથી મેનેજ કરો.",
+
+  "logout_btn": "લોગઆઉટ"
+}

@@ -1,0 +1,38 @@
+{
+  "app_name": "रिकूप",
+
+  "portal_title": "हेल्थकेअर पोर्टल",
+  "portal_subtitle": "आरोग्य अहवाल आणि सेवांसाठी सुरक्षित प्रवेश",
+
+  "login_heading": "पुन्हा स्वागत आहे",
+  "login_subtitle": "पुढे जाण्यासाठी लॉगिन करा",
+
+  "email_label": "ईमेल पत्ता",
+  "password_label": "पासवर्ड",
+  "email_placeholder": "तुमचा ईमेल टाका",
+  "password_placeholder": "तुमचा पासवर्ड टाका",
+  "confirm_password_placeholder": "पासवर्डची पुष्टी करा",
+
+  "remember_me": "मला लक्षात ठेवा",
+
+  "login_btn": "लॉगिन",
+
+  "no_account": "तुमचे खाते नाही का?",
+  "signup_link": "साइन अप",
+  "signup_intro": "तुमचे खाते तयार करा आणि स्वास्थ्य तंत्र तक सुरक्षित प्रवेश मिळवा.",
+  "signup_heading": "खाते तयार करा",
+  "signup_subtitle": "हेल्थकेअर पोर्टल वापरण्यासाठी नोंदणी करा",
+
+  "confirm_password": "पासवर्डची पुष्टी करा",
+  "preferred_language": "पसंतीची भाषा",
+  "create_account_btn": "खाते तयार करा",
+
+  "already_account": "आधीच खाते आहे का?",
+  "login_link": "लॉगिन",
+
+  "dashboard_title": "डॅशबोर्ड",
+  "welcome_heading": "रिकूपमध्ये आपले स्वागत आहे",
+  "welcome_text": "आरोग्य अहवाल आणि रुग्ण नोंदी सहज व्यवस्थापित करा.",
+
+  "logout_btn": "लॉगआउट"
+}
